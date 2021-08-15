@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand" href="#">
+    {% logo
+      override_inherited_src="{{ module.logo.override_inherited_src }}"
+      src="{{ module.logo.src }}"
+      alt="{{ module.logo.alt }}"
+      width="{{ module.logo.width }}"
+      height="{{ module.logo.height }}"
+      suppress_company_name="{{ module.logo.suppress_company_name }}"
+    %}
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        {% if module.title_opt1 %}
+        <a class="nav-link" href="#">{{ module.title_opt1 }}<span class="sr-only">(current)</span></a>
+        {% endif %}
+      </li>
+      <li class="nav-item">
+        {% if module.title_opt2 %}
+        <a class="nav-link" href="#">{{ module.title_opt2 }}</a>
+        {% endif %}
+      </li>
+      <li class="nav-item">
+        {% if module.title_opt3 %}
+        <a class="nav-link" href="#">{{ module.title_opt3 }}</a>
+        {% endif %}
+      </li>
+      <li class="nav-item">
+        {% if module.title_opt4 %}
+        <a class="nav-link" href="#">{{ module.title_opt4 }}</a>
+        {% endif %}
+      </li>
+    </ul>
+  </div>
+</nav>

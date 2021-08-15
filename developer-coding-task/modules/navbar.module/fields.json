@@ -1,0 +1,85 @@
+[
+    {
+        "name": "title_opt1",
+        "label": "Title",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default" : "About"
+    },
+    {
+        "name": "title_opt2",
+        "label": "Title",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default" : "Contact"
+    },
+    {
+        "name": "title_opt3",
+        "label": "Title",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default" : "Blog"
+    },
+    {
+        "name": "title_opt4",
+        "label": "Title",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default" : "Career"
+    },
+    {
+        "name": "title_opt5",
+        "label": "Title",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default" : "Home"
+    },
+    {
+        "name" : "logo_img",
+        "label" : "Logo Image",
+        "required" : false,
+        "locked" : false,
+        "responsive" : true,
+        "resizable" : true,
+        "show_loading" : false,
+        "type" : "image",
+            "default" : {
+            "size_type" : "auto",
+            "src" : "",
+            "alt" : null,
+            "loading": "disabled"
+            }
+        },
+        {
+            "name" : "logo",
+            "label" : "Logo",
+            "required" : false,
+            "locked" : false,
+            "type" : "logo",
+            "default" : {
+              "override_inherited_src" : false,
+              "src" : null,
+              "alt" : null
+            }
+          }
+]

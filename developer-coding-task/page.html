@@ -20,15 +20,20 @@
     {{ standard_header_includes }}
     {# Styles #}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ get_asset_url('./assets/css/main.scss') }}">
+    <link rel="stylesheet" href="{{ get_asset_url('./assets/css/main.css') }}">
 </head>
 
 {% set body_class = [builtin_body_classes] %}
 
 <body class="{{ body_class|join(' ')|trim }}">
-hi..
+
     <div class="site-container">
+
         <main id="main-content">
+            {% module "module_navbar",
+				path="./modules/navbar.module",
+				label="Navbar"
+			%}
             {% module "module_form_optin_20201119",
 				path="./modules/form-optin",
 				label="Form Optin"
