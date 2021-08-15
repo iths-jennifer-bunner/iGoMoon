@@ -1,7 +1,8 @@
 {
   "label": "Text Block",
-  "inline_help_text": "This is a content block with title, content and Cta or button with an option to choose where you want the content to be aligned",
+  "inline_help_text": "Here you can change the Title for each link in the navbar, add logo or change the default logo",
   "module_id": "",
+  "icon": "http://example.com/hubfs/code.svg",
   "is_available_for_new_content": true,
   "global": false,
   "host_template_types": [

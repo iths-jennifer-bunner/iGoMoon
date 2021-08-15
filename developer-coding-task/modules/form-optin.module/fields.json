@@ -2,6 +2,7 @@
     {
         "name": "heading",
         "label": "Heading",
+        "inline_help_text": "Choose heading for the email form",
         "required": false,
         "locked": false,
         "validation_regex": "",

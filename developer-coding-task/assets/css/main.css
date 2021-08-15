@@ -1,6 +1,7 @@
 body{
   margin: 0;
   background-color: #F2F2F2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hide{
@@ -39,3 +40,4 @@ body{
   background: linear-gradient(90deg, #A64646 0%, #8C4248 10.7%, #04435E 100%);
   font-weight: 500;
 }
+
