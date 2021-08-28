@@ -1,3 +1,5 @@
+{% from '../../my_macros.html' import privacy_policy %}
+
 <section class="module-outer">
     <div class="module-inner py-5 text-center">
         <div class="container">
@@ -22,8 +24,10 @@
                         </div>
                     </div>
                     <div class="mt-3">
-                        <button type="submit" class="btn btn-lg btn-info">Submit</button>
+                        <button type="submit" onclick="{{ privacy_policy() }}" class="btn btn-lg btn-info">Submit</button>
+                        <p id="privacy_policy" class="privacy_policy_text"></p>
                     </div> 
+                    
                     </div>  
                 </form>
             </div>

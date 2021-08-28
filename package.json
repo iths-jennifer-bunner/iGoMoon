@@ -1,0 +1,24 @@
+{
+  "name": "igomoon-coding-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.37.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iths-jennifer-bunner/iGoMoon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iths-jennifer-bunner/iGoMoon/issues"
+  },
+  "homepage": "https://github.com/iths-jennifer-bunner/iGoMoon#readme"
+}

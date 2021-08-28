@@ -22,25 +22,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ get_asset_url('./assets/css/main.css') }}">
 </head>
 
 {% set body_class = [builtin_body_classes] %}
-
 <body class="{{ body_class|join(' ')|trim }}">
 
     <div class="site-container">
 
         <main id="main-content">
-            {% module "module_navbar",
+            {# {% module "module_navbar",
 				path="./modules/navbar.module",
 				label="Navbar"
-			%}
+			%} #}
+
+            {% global_partial path="./modules/navbar.module" %}
             {% module "module_form_optin_20201119",
 				path="./modules/form-optin",
 				label="Form Optin"
 			%}
+            
         </main>
     </div>
 

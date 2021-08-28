@@ -1,0 +1,19 @@
+{
+  "label": "Hero Section",
+  "inline_help_text": "Here you can change the background image, title, and text on button for the Hero Section",
+  "module_id": "",
+  "icon": "http://example.com/hubfs/code.svg",
+  "is_available_for_new_content": true,
+  "global": false,
+  "host_template_types": [
+    "PAGE",
+    "BLOG_POST",
+    "BLOG_LISTING"
+  ],
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "css_assets": [],
+  "js_assets": [],
+  "other_assets": [],
+  "extra_classes": ""
+}

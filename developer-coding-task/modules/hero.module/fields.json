@@ -1,0 +1,36 @@
+[
+{
+  "name": "bg_image",
+  "label": "Background image",
+  "inline_help_text": "Choose background Image for the Hero Section",
+  "required": false,
+  "type": "backgroundimage",
+  "default": {
+      "src": "https://example.com/img.png",
+      "background_position": "MIDDLE_CENTER",
+      "background_size": "cover"
+  }
+
+},
+{
+  "name" : "button_title",
+  "label" : "Button Title",
+  "inline_help_text": "Add text for the Button",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Sign Up"
+},
+{
+  "name" : "hero_title",
+  "label" :  "Hero Title",
+  "inline_help_text": "Add a smashing text for your hero",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Connect With Us!"
+}
+]
