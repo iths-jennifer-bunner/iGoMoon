@@ -1,0 +1,50 @@
+[
+  {
+      "name": "title",
+      "label": "Title",
+      "inline_help_text": "Here you can change the title for the footer",
+      "required": false,
+      "locked": false,
+      "validation_regex": "",
+      "allow_new_line": false,
+      "show_emoji_picker": false,
+      "type": "text",
+      "default" : "iGoMoon"
+  },
+  {
+      "name": "text_field",
+      "label": "Text Field",
+      "inline_help_text": "Here you can change the title for the link in the navbar menu",
+      "required": false,
+      "locked": false,
+      "validation_regex": "",
+      "allow_new_line": false,
+      "show_emoji_picker": false,
+      "type": "text",
+      "default" : "We would love to explore and help you get the 'overview effect' (is a cognitive shift in awareness reported by some astronauts during spaceflight, often while viewing the Earth from outer space). "
+  },
+  {
+      "name": "links_title",
+      "label": "Links Title",
+      "inline_help_text": "Here you can change the title for the link in the footer",
+      "required": false,
+      "locked": false,
+      "validation_regex": "",
+      "allow_new_line": false,
+      "show_emoji_picker": false,
+      "type": "text",
+      "default" : "About"
+  },
+  {
+      "name": "links",
+      "label": "Links",
+      "inline_help_text": "Here you can change the title for the link in the footer",
+      "required": false,
+      "locked": false,
+      "validation_regex": "",
+      "allow_new_line": false,
+      "show_emoji_picker": false,
+      "type": "text",
+      "default" : "Links"
+  }
+]

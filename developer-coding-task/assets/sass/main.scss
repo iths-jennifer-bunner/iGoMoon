@@ -11,6 +11,7 @@ body{
   display: none;
 }
 
+
 .fadeIn {
   opacity: 1;
   animation-name: fadeInOpacity;
@@ -49,33 +50,32 @@ body{
 }
 
 
-.btn{
+.hs-button, .btn{
   border-radius: 50px;
   padding: 8px 30px;
-  background: linear-gradient(90deg, #A64646 0%, #8C4248 10.7%, #04435E 100%);
+  background: linear-gradient(90deg, #A64646 0%, #8C4248 10.7%, #04435E 100%) !important;
   font-weight: 500;
+  transition: all .2s ease-in-out; 
 }
+
+.hs-button.primary.large:hover , .btn:hover{transform: scale(1.1); }
+
 
 .privacy_policy_text {
   padding: 1rem;
 }
 
-.hero-section {
-  height: 1200px;
-  width: 1200px;
-  background-color: #8C4248;
-}
 
 .my_rich_text_module{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 2rem;
   color:#DB3744;
   font-weight: 900;
   &__title , &__paragraph {
     transform: translateY(-10rem);
+    padding: 0rem 1rem;
   }
   @media (min-width: 768px) { 
   &__title , &__paragraph {
@@ -97,11 +97,11 @@ body{
     }
   }
 }
-.center-content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.background__footer{
+  background: linear-gradient(270deg, #04435E 54.56%, #1B1D20 93.73%, #1C1E21 97.16%);
 }
+
 /* Responsive grid */
 
 .row-fluid {
@@ -188,6 +188,9 @@ body{
 
 .container-fluid:after {
   clear: both;
+}
+.container-fluid{
+  padding: 0;
 }
 
 @media (max-width: 767px) {

@@ -1,6 +1,6 @@
 {
   "label": "Text Block",
-  "inline_help_text": "Here you can change the Title for each link in the navbar, add logo or change the default logo",
+  "inline_help_text": "Here you can change the Title for each link in the footer add Title and content",
   "module_id": "",
   "icon": "http://example.com/hubfs/code.svg",
   "is_available_for_new_content": true,

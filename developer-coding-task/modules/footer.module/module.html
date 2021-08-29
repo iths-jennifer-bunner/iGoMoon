@@ -1,0 +1,99 @@
+<!--
+    templateType: global_partial
+    label: Global partial
+    isAvailableForNewContent: false
+-->
+
+<section class="">
+  <!-- Footer -->
+  <footer class="bg-secondary text-white text-center text-md-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        {% if module.title %}
+          <h5 class="text-uppercase">{{ module.title }}</h5>
+        {% endif %}
+        {% if module.text_field %}
+          <p>
+            {{ module.text_field }}
+          </p>
+        {% endif %}
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        {% if module.links_title %}
+          <h5 class="text-uppercase">{{ module.links_title }}</h5>
+        {% endif %}
+          <ul class="list-unstyled mb-0">
+            <li>
+            {% if module.links %}
+              <a href="#!" class="text-white">{{ module.links }}</a>
+            {% endif %}
+            </li>
+            <li>
+            {% if module.links %}
+              <a href="#!" class="text-white">{{ module.links }}</a>
+            {% endif %}
+            </li>
+            <li>
+            {% if module.links %}
+              <a href="#!" class="text-white">{{ module.links }}</a>
+            {% endif %}
+            </li>
+            <li>
+            {% if module.links %}
+              <a href="#!" class="text-white">{{ module.links }}</a>
+            {% endif %}
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        {% if module.links_title %}
+          <h5 class="text-uppercase mb-0">{{ module.links_title }}</h5>
+        {% endif %}
+          <ul class="list-unstyled">
+            <li>
+            {% if module.links %}
+              <a href="#!" class="text-white">{{ module.links }}</a>
+            {% endif %}
+            </li>
+            <li>
+            {% if module.links %}
+              <a href="#!" class="text-white">{{ module.links }}</a>
+            {% endif %}
+            </li>
+            <li>
+            {% if module.links %}
+              <a href="#!" class="text-white">{{ module.links }}</a>
+            {% endif %}
+            </li>
+            <li>
+            {% if module.links %}
+              <a href="#!" class="text-white">{{ module.links }}</a>
+            {% endif %}
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright: Jennifer Bunner
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+
